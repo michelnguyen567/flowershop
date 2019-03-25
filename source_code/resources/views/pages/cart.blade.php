@@ -30,7 +30,7 @@
                                     <i class="fs-12 fa fa-minus" aria-hidden="true"></i>
                                 </button>
 
-                                <input class="size8 m-text18 t-center num-product" type="number" name="num-product1" value="1">
+                                <input class="size8 m-text18 t-center num-product" type="number" name="num-product1" value="{{$sp['qty']}}">
 
                                 <button class="btn-num-product-up color1 flex-c-m size7 bg8 eff2">
                                     <i class="fs-12 fa fa-plus" aria-hidden="true"></i>
@@ -90,7 +90,8 @@
             </div>
 
             <!--  -->
-            <form action="{{route('dat-hang')}}">
+            <form action="{{route('dat-hang')}}" method="post">
+            @csrf
             <div class="flex-w flex-sb bo10 p-t-15 p-b-20">
                 <span class="s-text18 w-size19 w-full-sm">
                     Địa chỉ thanh toán:

@@ -72,6 +72,7 @@ class PageController extends Controller
         if (Session('cart')) {
             $oldCart= Session::get('cart');
             $cart=new Cart($oldCart);
+            
             return view('pages.cart',['product'=>$cart->items,'totalPrice'=>$cart->totalPrice,'totalQty'=>$cart->totalQty]);
         }
         return view('pages.cart');
@@ -86,12 +87,15 @@ class PageController extends Controller
 
     public function getAddtoCart(Request $req,$id){
         $product = Product::find($id);
+        
         $oldCart= Session('cart')?Session::get('cart'):null;
         $cart = new Cart($oldCart);
         
         $cart->add($product,$id);
         $req->session()->put('cart',$cart);
-        return (['product'=>$product]);
+        
+        
+        return (['cart'=>$cart]);
        
     }
 
@@ -99,6 +103,14 @@ class PageController extends Controller
         $oldCart=Session('cart')?Session::get('cart'):null;
         $cart=new Cart($oldCart);
         $cart->reduceByOne($id);
+        $req->session()->put('cart',$cart);
+        return redirect()->back();
+    }
+
+    public function getDelsCart(Request $req,$id){
+        $oldCart=Session('cart')?Session::get('cart'):null;
+        $cart=new Cart($oldCart);
+        $cart->removeItem($id);
         $req->session()->put('cart',$cart);
         return redirect()->back();
     }
@@ -134,10 +146,12 @@ class PageController extends Controller
        
         Session::forget('cart');
 
-        return view("pages.success");
+        return view("pages.success",['customer'=>$customer,'bill'=>$bill,'cart'=>$cart]);
 
         //return view("welcome",['thongbao'=>"dat hang thanh cong"]);
 
         return view("welcome",['name'=>$customer]);
     }
+
+   
 }

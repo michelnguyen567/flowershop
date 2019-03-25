@@ -108,7 +108,7 @@
                 type: 'GET',
                 url: 'add-to-cart/'+id,
                 success: function(data) {
-                    //alert(data['product']['name']);
+					
                 }
             });
 	}

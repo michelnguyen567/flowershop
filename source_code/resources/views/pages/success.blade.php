@@ -9,7 +9,7 @@
 			Đặt hàng thành công
 		</h2>
 	</section>
-
+	
 	<!-- Cart -->
 	<section class="cart bgwhite p-t-70 p-b-100">
 		<div class="container">
@@ -41,7 +41,7 @@
 							$39.00
 						</span>
 					</div>
-
+					
 					<!--  -->
 					<div class="flex-w flex-sb bo10 p-t-15 p-b-20">
 						<span class="s-text18 w-size19 w-full-sm">
@@ -50,7 +50,7 @@
 
 						<div class="w-size20 w-full-sm">
 							<p class="s-text8 p-b-23">
-								There are no shipping methods available. Please double check your address, or contact us if you need any help.
+							{{$customer['note']}}
 							</p>
 						</div>
 					</div>

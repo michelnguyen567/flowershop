@@ -61,12 +61,17 @@ Route::get('del-cart/{id}',[
     'uses'=>'PageController@getDelCart'
 ]);
 
+Route::get('dels-cart/{id}',[
+    'as'=>'xoasgiohang',
+    'uses'=>'PageController@getDelsCart'
+]);
+
 Route::get('get-list-cart',[
     'as'=>'laygiohang',
     'uses'=>'PageController@getListCart'
 ]);
 
-Route::get('dat-hang',[
+Route::post('success',[
     'as'=>'dat-hang',
     'uses'=>"PageController@getCheckOut"
 ]);

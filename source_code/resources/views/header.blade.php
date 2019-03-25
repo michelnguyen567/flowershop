@@ -46,7 +46,7 @@
 
 						<!-- Header cart noti -->
 						<div class="header-cart header-dropdown">
-							<ul class="header-cart-wrapitem">
+							<ul class="header-cart-wrapitem" id="list-cart">
 							@if(Session::has('cart'))
 								@foreach($product_cart as $product)
 								<li class="header-cart-item">
@@ -64,7 +64,7 @@
 										</span>
 									</div>
 									<div class="header-cart-item-txt">
-										<a href="{{route('xoagiohang',$product['item']['id'])}}">x</a>
+										<a href="{{route('xoasgiohang',$product['item']['id'])}}">x</a>
 									</div>
 									
 								</li>
