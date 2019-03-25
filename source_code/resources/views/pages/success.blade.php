@@ -4,11 +4,14 @@
 
 
 <!-- Title Page -->
-<section class="bg-title-page p-t-40 p-b-50 flex-col-c-m" style="background-image: url(images/heading-pages-01.jpg);">
-		<h2 class="l-text2 t-center">
-			Đặt hàng thành công
-		</h2>
-	</section>
+<section class="bg-title-page p-t-40 p-b-50 flex-col-c-m" style="background-image: url(/source/images/heading-pages-03.jpg);">
+	<h2 class="l-text2 t-center">
+		Đặt hàng thành công
+	</h2>
+	<p class="m-text13 t-center">
+        Lấy chất lượng làm tiêu chí hàng đầu
+    </p>
+</section>
 	
 	<!-- Cart -->
 	<section class="cart bgwhite p-t-70 p-b-100">
@@ -19,9 +22,9 @@
 					
 					<div class="size12 trans-0-4 m-t-10 m-b-10 m-r-10">
 						<!-- Button -->
-						<button class="flex-c-m sizefull bg1 bo-rad-23 hov1 s-text1 trans-0-4">
+						<!-- <button class="flex-c-m sizefull bg1 bo-rad-23 hov1 s-text1 trans-0-4">
 							Hủy đặt hàng
-						</button>
+						</button> -->
 					</div>
 				</div>
 
@@ -34,37 +37,65 @@
 					<!--  -->
 					<div class="flex-w flex-sb-m p-b-12">
 						<span class="s-text18 w-size19 w-full-sm">
-							Tổng tiền:
+							Tổng tiền: 
 						</span>
 
 						<span class="m-text21 w-size20 w-full-sm">
-							$39.00
+							{{$bill['total']}} VNĐ
 						</span>
 					</div>
 					
 					<!--  -->
 					<div class="flex-w flex-sb bo10 p-t-15 p-b-20">
 						<span class="s-text18 w-size19 w-full-sm">
-							Shipping:
-						</span>
-
-						<div class="w-size20 w-full-sm">
-							<p class="s-text8 p-b-23">
-							{{$customer['note']}}
-							</p>
-						</div>
-					</div>
-
-					<!--  -->
-					<div class="flex-w flex-sb-m p-t-26 p-b-30">
-						<span class="m-text22 w-size19 w-full-sm">
-							Tổng cộng:
+							Hình thức thanh toán:
 						</span>
 
 						<span class="m-text21 w-size20 w-full-sm">
-							$39.00
+							{{$bill['payment']}}
 						</span>
+
+						<span class="s-text18 w-size19 w-full-sm">
+							Họ tên:
+						</span>
+
+						<span class="m-text21 w-size20 w-full-sm">
+							{{$customer['ho']}} {{$customer['ten']}}
+						</span>
+
+						<span class="s-text18 w-size19 w-full-sm">
+							Số điện thoại:
+						</span>
+
+						<span class="m-text21 w-size20 w-full-sm">
+							{{$customer['phone_number']}}
+						</span>
+
+						<span class="s-text18 w-size19 w-full-sm">
+							Địa chỉ:
+						</span>
+
+						<span class="m-text21 w-size20 w-full-sm">
+							{{$customer['address']}}
+						</span>
+
+						<span class="s-text18 w-size19 w-full-sm">
+							Ghi chú:
+						</span>
+
+						<span class="m-text21 w-size20 w-full-sm">
+							{{$customer['note']}}
+						</span>
+
 					</div>
+
+					<!--  -->
+					<!-- <div class="flex-w flex-sb-m p-t-26 p-b-30"> -->
+						<h6 class="m-text20 p-b-24">
+							Cám ơn quý khách!!!
+						</h6>
+						
+					<!-- </div> -->
 
 				</div>
 

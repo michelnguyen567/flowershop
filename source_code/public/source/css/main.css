@@ -1758,6 +1758,9 @@ li.sale-noti > a {
   -o-transform: scale(1);
   transform: scale(1);
 }
+.block2-txt{
+  text-align: center;
+}
 
 
 /*[ Block4 ]
@@ -2094,8 +2097,9 @@ li.sale-noti > a {
   padding-right: 30px;
 }
 .table-shopping-cart .column-4 {
-  width: 355px;
+  width: 300px;
   padding-right: 30px;
+  padding-left: 50px;
 }
 .table-shopping-cart .column-5 {
   padding-right: 30px;

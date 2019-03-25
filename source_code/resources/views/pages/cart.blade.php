@@ -1,6 +1,18 @@
 @extends("layout")
 
 @section('body')
+
+<!-- Title Page -->
+<section class="bg-title-page p-t-50 p-b-40 flex-col-c-m" style="background-image: url(/source/images/heading-pages-02.jpg);">
+    <h2 class="l-text2 t-center">
+        Giỏ hàng
+    </h2>
+    <p class="m-text13 t-center">
+        Lấy chất lượng làm tiêu chí hàng đầu
+    </p>
+</section>
+
+
 <section class="cart bgwhite p-t-70 p-b-100">
     <div class="container">
         <!-- Cart item -->
@@ -8,7 +20,7 @@
             <div class="wrap-table-shopping-cart bgwhite">
                 <table class="table-shopping-cart">
                     <tr class="table-head">
-                        <th class="column-1"></th>
+                        <th class="column-1">Hình</th>
                         <th class="column-2">Sản phẩm</th>
                         <th class="column-3">Giá</th>
                         <th class="column-4 p-l-70">Số lượng</th>
@@ -23,7 +35,7 @@
                             </div>
                         </td>
                         <td class="column-2">{{$sp['item']['name']}}</td>
-                        <td class="column-3">{{$sp['item']['unit_price']}}</td>
+                        <td class="column-3">{{$sp['item']['unit_price']}} VNĐ</td>
                         <td class="column-4">
                             <div class="flex-w bo5 of-hidden w-size17">
                                 <button class="btn-num-product-down color1 flex-c-m size7 bg8 eff2">
@@ -37,7 +49,7 @@
                                 </button>
                             </div>
                         </td>
-                        <td class="column-5">$36.00</td>
+                        <td class="column-5">{{$sp['price']}} VNĐ</td>
                     </tr>
                     @endforeach
                     @endif
@@ -86,6 +98,7 @@
                     @else
                         0
                     @endif
+                    VNĐ
                 </span>
             </div>
 
@@ -98,29 +111,24 @@
                 </span>
 
                 <div class="w-size20 w-full-sm">
-                    <label>ho</label>
                     <div class="size13 bo4 m-b-12">
-                        <input type="text" name="ho" id="ho" class="sizefull s-text7 p-l-15 p-r-15">
+                        <input type="text" name="ho" id="ho" class="sizefull s-text7 p-l-15 p-r-15" placeholder="Nhập họ">
                     </div>
-                    
-                    <label>ten</label>
+
                     <div class="size13 bo4 m-b-12">
-                        <input type="text" name="name" id="name" class="sizefull s-text7 p-l-15 p-r-15">
+                        <input type="text" name="name" id="name" class="sizefull s-text7 p-l-15 p-r-15" placeholder="Nhập tên">
                     </div>
-                    
-                    <label>dien thoai</label>
+                   
                     <div class="size13 bo4 m-b-12">
-                        <input type="text" name="phone" id="phone" class="sizefull s-text7 p-l-15 p-r-15">
+                        <input type="text" name="phone" id="phone" class="sizefull s-text7 p-l-15 p-r-15" placeholder="Nhập số điện thoại">
                     </div>
-                    
-                    <label>diachi</label>
+                   
                     <div class="size13 bo4 m-b-12">
-                        <input type="text" name="address" id="address" class="sizefull s-text7 p-l-15 p-r-15">
+                        <input type="text" name="address" id="address" class="sizefull s-text7 p-l-15 p-r-15" placeholder="Nhập địa chỉ">
                     </div>
-                    
-                    <label>ghichu</label>
+                   
                     <div class="size13 bo4 m-b-12">
-                        <input type="text" name="note" id="note" class="sizefull s-text7 p-l-15 p-r-15">
+                        <input type="text" name="note" id="note" class="sizefull s-text7 p-l-15 p-r-15" placeholder="Nhập ghi chú">
                     </div>
                     
                 </div>
@@ -130,10 +138,10 @@
                     Phương thức thanh toán:
                 </span>
                 <input type="radio" name="payment" id="payment" value="COD" checked="checked">
-                <label>thanh toan khi nhan hang</label>
+                <label>COD</label>
 
                 <input type="radio" name="payment" id="payment" value="ATM" checked="checked">
-                <label>chuyen khoan</label>
+                <label>ATM</label>
             </div>
             <!--  -->
             <div class="flex-w flex-sb-m p-t-26 p-b-30">
@@ -141,7 +149,12 @@
                     Tổng cộng:
                 </span>
                 <span class="m-text21 w-size20 w-full-sm">
-                    $39.00
+                    @if(Session::has('cart'))
+                        {{$totalPrice}}
+                    @else
+                        0
+                    @endif
+                    VNĐ
                 </span>
             </div>
 

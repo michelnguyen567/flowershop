@@ -1,6 +1,18 @@
 @extends("layout")
 
 @section('body')
+<!-- Title Page -->
+<section class="bg-title-page p-t-50 p-b-40 flex-col-c-m" style="background-image: url(/source/images/heading-pages-01.jpg);">
+		<h2 class="l-text2 t-center">
+			Cửa hàng
+		</h2>
+		<p class="m-text13 t-center">
+			Lấy chất lượng làm tiêu chí hàng đầu
+		</p>
+	</section>
+
+
+	<!-- Content page -->
 <section class="bgwhite p-t-55 p-b-65">
     <div class="container">
         <div class="row">
@@ -41,7 +53,7 @@
                 <!--  -->
                 <div class="flex-sb-m flex-w p-b-35">
                     <div class="flex-w">
-                        <div class="rs2-select2 bo4 of-hidden w-size12 m-t-5 m-b-5 m-r-10">
+                        <div class="rs2-select2 of-hidden w-size12 m-t-5 m-b-5 m-r-10">
                             <select class="selection-2" name="sorting" id="order" onchange="order()">
                             
                                 <option value="1">Sắp xếp ngẫu nhiên</option>                                
@@ -87,7 +99,7 @@
                                 </a>
 
                                 <span class="block2-Giá m-text6 p-r-5">
-                                    {{$sp->unit_price}}
+                                    {{$sp->unit_price}} VNĐ
                                 </span>
                             </div>
                         </div>

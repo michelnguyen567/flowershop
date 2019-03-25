@@ -8,15 +8,15 @@
 				@foreach($slide as $sli)
 				<div class="item-slick1 item1-slick1" style="background-image: url(source/images/{{$sli->image}});">
 					<div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
-						<h2 class="caption1-slide1 xl-text2 t-center bo14 p-b-6 animated visible-false m-b-22" data-appear="fadeInUp">
+						<h2 class="caption1-slide1 xl-text2 t-center bo14 p-b-6 animated visible-false m-b-22" data-appear="rollIn">
 							Shop Hoa SaDec
 						</h2>
 
-						<span class="caption2-slide1 m-text1 t-center animated visible-false m-b-33" data-appear="fadeInDown">
+						<span class="caption2-slide1 m-text1 t-center animated visible-false m-b-33" data-appear="lightSpeedIn">
 							LẤY CHẤT LƯỢNG LÀM TIÊU CHÍ HÀNG ĐẦU
 						</span>
 
-						<div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="zoomIn">
+						<div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="slideInUp">
 							<!-- Button -->
 							<a href="product" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
 								Shopping nào !!!
@@ -139,8 +139,8 @@
 											{{$sp->name}}
 										</a>
 
-										<span class="block2-price m-text6 p-r-5">
-											{{$sp->unit_price}}
+										<span class="block2-price m-text6 p-r-5" style="color: red;">
+											{{$sp->unit_price}} VNĐ
 										</span>
 									</div>
 								</div>
@@ -179,8 +179,8 @@
 										<a href="source/product-detail.html" class="block2-name dis-block s-text3 p-b-5">
 											{{$sp->name}}
 										</a>
-										<span class="block2-newprice m-text8 p-r-5">
-											{{$sp->unit_price}}
+										<span class="block2-newprice m-text6 p-r-5" style="color:#66a8a6;">
+											{{$sp->unit_price}} VNĐ
 										</span>
 									</div>
 								</div>
@@ -220,8 +220,8 @@
 											{{$sp->name}}
 										</a>
 
-										<span class="block2-price m-text6 p-r-5">
-											{{$sp->promotion_price}}
+										<span class="block2-price m-text6 p-r-5" style="color:#e65540;">
+											{{$sp->promotion_price}} VNĐ
 										</span>
 									</div>
 								</div>

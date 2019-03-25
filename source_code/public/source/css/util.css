@@ -3271,6 +3271,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-size: 18px;
 	color: white;
 	line-height: 1.8;
+	background-color: brown;
 }
 
 .m-text14 {
@@ -3321,6 +3322,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	color: #333333;
 	line-height: 1.5;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 .m-text21 {
