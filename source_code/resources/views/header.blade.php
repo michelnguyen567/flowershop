@@ -89,22 +89,25 @@
 							@if(Session::has('cart'))
 								@foreach($product_cart as $product)
 								<li class="header-cart-item">
+								
 									<div class="header-cart-item-img">
 										<img src="/source/images/item-cart-01.jpg" alt="IMG">
 									</div>
-
+									
 									<div class="header-cart-item-txt">
 										<a href="#" class="header-cart-item-name">
-											{{$product['item']['name']}}
+											{{$product['item']['name']}} 
 										</a>
-
 										<span class="header-cart-item-info">
-											{{$product['qty']}} x {{$product['price']}}
+											{{$product['qty']}} x {{$product['price']}} VNĐ
 										</span>
+										<a style="float:right;" class="header-cart-item-info" href="{{route('xoasgiohang',$product['item']['id'])}}">Xóa</a>
+										
 									</div>
-									<div class="header-cart-item-txt">
+									
+									<!-- <div class="header-cart-item-txt">
 										<a href="{{route('xoasgiohang',$product['item']['id'])}}">x</a>
-									</div>
+									</div> -->
 									
 								</li>
 								@endforeach
@@ -113,7 +116,7 @@
 
 							<div class="header-cart-total">
 							@if(session::has('cart'))
-								{{$totalPrice}}
+								Tổng tiền: {{$totalPrice}} VNĐ
 							@else
 								0
 							@endif
