@@ -1638,7 +1638,8 @@ li.sale-noti > a {
 ///////////////////////////////////////////////////////////
 */
 .block2-labelsale::before,
-.block2-labelnew::before 
+.block2-labelnew::before,
+.block2-labelhot::before 
 {
   z-index: 100;
   font-family: Montserrat-Regular;
@@ -1667,6 +1668,10 @@ li.sale-noti > a {
 .block2-labelnew::before {
   background-color: #66a8a6;
   content: 'New';
+}
+.block2-labelhot::before {
+  background-color: red;
+  content: 'Hot';
 }
 
 /* ------------------------------------ */

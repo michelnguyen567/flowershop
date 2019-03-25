@@ -9,11 +9,11 @@
 				<div class="item-slick1 item1-slick1" style="background-image: url(source/images/{{$sli->image}});">
 					<div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
 						<h2 class="caption1-slide1 xl-text2 t-center bo14 p-b-6 animated visible-false m-b-22" data-appear="fadeInUp">
-							Leather Bags
+							Shop Hoa SaDec
 						</h2>
 
 						<span class="caption2-slide1 m-text1 t-center animated visible-false m-b-33" data-appear="fadeInDown">
-							New Collection 2018
+							LẤY CHẤT LƯỢNG LÀM TIÊU CHÍ HÀNG ĐẦU
 						</span>
 
 						<div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="zoomIn">
@@ -38,12 +38,12 @@
 				<div class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
 					<!-- block1 -->
 					<div class="block1 hov-img-zoom pos-relative m-b-30">
-						<img src="source/images/banner-05.jpg" alt="IMG-BENNER">
+						<img src="source/images/cate/hoa_hong.jpg" alt="IMG-BENNER">
 
 						<div class="block1-wrapbtn w-size2">
 							<!-- Button -->
 							<a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
-								Sunglasses
+								Hoa Hồng
 							</a>
 						</div>
 					</div>
@@ -52,12 +52,12 @@
 				<div class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
 					<!-- block1 -->
 					<div class="block1 hov-img-zoom pos-relative m-b-30">
-						<img src="source/images/banner-03.jpg" alt="IMG-BENNER">
+						<img src="source/images/cate/hoa_lavender.jpg" alt="IMG-BENNER">
 
 						<div class="block1-wrapbtn w-size2">
 							<!-- Button -->
 							<a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
-								Watches
+								Hoa Lavander
 							</a>
 						</div>
 					</div>
@@ -66,12 +66,12 @@
 				<div class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
 					<!-- block1 -->
 					<div class="block1 hov-img-zoom pos-relative m-b-30">
-						<img src="source/images/banner-10.jpg" alt="IMG-BENNER">
+						<img src="source/images/cate/hoa_lan.jpg" alt="IMG-BENNER">
 
 						<div class="block1-wrapbtn w-size2">
 							<!-- Button -->
 							<a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
-								Bags
+								Hoa Lan
 							</a>
 						</div>
 					</div>
@@ -103,9 +103,6 @@
 					<li class="nav-item">
 						<a class="nav-link" data-toggle="tab" href="#sale" role="tab">Sale</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" data-toggle="tab" href="#top-rate" role="tab">Chất lượng cao</a>
-					</li>
 				</ul>
 
 				<!-- Tab panes -->
@@ -117,7 +114,7 @@
 							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
 								<!-- Block2 -->
 								<div class="block2">
-									<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
+									<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelhot">
 										<img src="source/images/item-02.jpg" alt="IMG-PRODUCT">
 
 										<div class="block2-overlay trans-0-4">
@@ -160,7 +157,7 @@
 							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
 								<!-- Block2 -->
 								<div class="block2">
-									<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelsale">
+									<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
 										<img src="source/images/item-07.jpg" alt="IMG-PRODUCT">
 
 										<div class="block2-overlay trans-0-4">
@@ -231,283 +228,6 @@
 							</div>
 							@endforeach
 							
-						</div>
-					</div>
-
-					<!-- Chất lượng cao -->
-					<div class="tab-pane fade" id="top-rate" role="tabpanel">
-						<div class="row">
-							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
-								<!-- Block2 -->
-								<div class="block2">
-									<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
-										<img src="source/images/item-02.jpg" alt="IMG-PRODUCT">
-
-										<div class="block2-overlay trans-0-4">
-											<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
-												<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
-												<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
-											</a>
-
-											<div class="block2-btn-addcart w-size1 trans-0-4">
-												<!-- Button -->
-												<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-													Thêm vào giỏ
-												</button>
-											</div>
-										</div>
-									</div>
-
-									<div class="block2-txt p-t-20">
-										<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-											Herschel supply co 25l
-										</a>
-
-										<span class="block2-price m-text6 p-r-5">
-											$75.00
-										</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
-								<!-- Block2 -->
-								<div class="block2">
-									<div class="block2-img wrap-pic-w of-hidden pos-relative">
-										<img src="source/images/item-03.jpg" alt="IMG-PRODUCT">
-
-										<div class="block2-overlay trans-0-4">
-											<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
-												<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
-												<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
-											</a>
-
-											<div class="block2-btn-addcart w-size1 trans-0-4">
-												<!-- Button -->
-												<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-													Thêm vào giỏ
-												</button>
-											</div>
-										</div>
-									</div>
-
-									<div class="block2-txt p-t-20">
-										<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-											Denim jacket blue
-										</a>
-
-										<span class="block2-price m-text6 p-r-5">
-											$92.50
-										</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
-								<!-- Block2 -->
-								<div class="block2">
-									<div class="block2-img wrap-pic-w of-hidden pos-relative">
-										<img src="source/images/item-05.jpg" alt="IMG-PRODUCT">
-
-										<div class="block2-overlay trans-0-4">
-											<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
-												<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
-												<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
-											</a>
-
-											<div class="block2-btn-addcart w-size1 trans-0-4">
-												<!-- Button -->
-												<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-													Thêm vào giỏ
-												</button>
-											</div>
-										</div>
-									</div>
-
-									<div class="block2-txt p-t-20">
-										<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-											Coach slim easton black
-										</a>
-
-										<span class="block2-price m-text6 p-r-5">
-											$165.90
-										</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
-								<!-- Block2 -->
-								<div class="block2">
-									<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelsale">
-										<img src="source/images/item-07.jpg" alt="IMG-PRODUCT">
-
-										<div class="block2-overlay trans-0-4">
-											<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
-												<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
-												<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
-											</a>
-
-											<div class="block2-btn-addcart w-size1 trans-0-4">
-												<!-- Button -->
-												<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-													Thêm vào giỏ
-												</button>
-											</div>
-										</div>
-									</div>
-
-									<div class="block2-txt p-t-20">
-										<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-											Frayed denim shorts
-										</a>
-
-										<span class="block2-oldprice m-text7 p-r-5">
-											$29.50
-										</span>
-
-										<span class="block2-newprice m-text8 p-r-5">
-											$15.90
-										</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
-								<!-- Block2 -->
-								<div class="block2">
-									<div class="block2-img wrap-pic-w of-hidden pos-relative">
-										<img src="source/images/item-10.jpg" alt="IMG-PRODUCT">
-
-										<div class="block2-overlay trans-0-4">
-											<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
-												<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
-												<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
-											</a>
-
-											<div class="block2-btn-addcart w-size1 trans-0-4">
-												<!-- Button -->
-												<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-													Thêm vào giỏ
-												</button>
-											</div>
-										</div>
-									</div>
-
-									<div class="block2-txt p-t-20">
-										<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-											Coach slim easton black
-										</a>
-
-										<span class="block2-price m-text6 p-r-5">
-											$165.90
-										</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
-								<!-- Block2 -->
-								<div class="block2">
-									<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelsale">
-										<img src="source/images/item-11.jpg" alt="IMG-PRODUCT">
-
-										<div class="block2-overlay trans-0-4">
-											<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
-												<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
-												<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
-											</a>
-
-											<div class="block2-btn-addcart w-size1 trans-0-4">
-												<!-- Button -->
-												<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-													Thêm vào giỏ
-												</button>
-											</div>
-										</div>
-									</div>
-
-									<div class="block2-txt p-t-20">
-										<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-											Frayed denim shorts
-										</a>
-
-										<span class="block2-oldprice m-text7 p-r-5">
-											$29.50
-										</span>
-
-										<span class="block2-newprice m-text8 p-r-5">
-											$15.90
-										</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
-								<!-- Block2 -->
-								<div class="block2">
-									<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
-										<img src="source/images/item-12.jpg" alt="IMG-PRODUCT">
-
-										<div class="block2-overlay trans-0-4">
-											<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
-												<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
-												<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
-											</a>
-
-											<div class="block2-btn-addcart w-size1 trans-0-4">
-												<!-- Button -->
-												<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-													Thêm vào giỏ
-												</button>
-											</div>
-										</div>
-									</div>
-
-									<div class="block2-txt p-t-20">
-										<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-											Herschel supply co 25l
-										</a>
-
-										<span class="block2-price m-text6 p-r-5">
-											$75.00
-										</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
-								<!-- Block2 -->
-								<div class="block2">
-									<div class="block2-img wrap-pic-w of-hidden pos-relative">
-										<img src="source/images/item-15.jpg" alt="IMG-PRODUCT">
-
-										<div class="block2-overlay trans-0-4">
-											<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
-												<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
-												<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
-											</a>
-
-											<div class="block2-btn-addcart w-size1 trans-0-4">
-												<!-- Button -->
-												<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-													Thêm vào giỏ
-												</button>
-											</div>
-										</div>
-									</div>
-
-									<div class="block2-txt p-t-20">
-										<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-											Denim jacket blue
-										</a>
-
-										<span class="block2-price m-text6 p-r-5">
-											$92.50
-										</span>
-									</div>
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>

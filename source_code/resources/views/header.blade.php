@@ -1,7 +1,7 @@
-<header class="header2">
+<header class="header1">
 		<!-- Header desktop -->
-		<div class="container-menu-header-v2 p-t-26">
-			<div class="topbar2">
+		<div class="container-menu-header">
+			<div class="topbar">
 				<div class="topbar-social">
 					<a href="#" class="topbar-social-item fa fa-facebook"></a>
 					<a href="#" class="topbar-social-item fa fa-instagram"></a>
@@ -10,10 +10,9 @@
 					<a href="#" class="topbar-social-item fa fa-youtube-play"></a>
 				</div>
 
-				<!-- Logo2 -->
-				<a href="index.html" class="logo2">
-					<img src="/source/images/logo/logo.png" alt="IMG-LOGO">
-				</a>
+				<span class="topbar-child1">
+					Free shipping với hóa đơn trên 1 triệu VNĐ
+				</span>
 
 				<div class="topbar-child2">
 					<span class="topbar-email">
@@ -26,15 +25,55 @@
 							<option>USD</option>
 						</select>
 					</div>
+				</div>
+			</div>
 
+			<div class="wrap_header">
+				<!-- Logo -->
+				<a href="index.html" class="logo">
+					<img src="/source/images/logo/logo.png" alt="IMG-LOGO">
+				</a>
+				<!-- Menu -->
+				<div class="wrap_menu">
+					<nav class="menu">
+						<ul class="main_menu">
+							<li>
+								<a href="{{route('trang-chu')}}">Trang chủ</a>
+							</li>
+
+							<li>
+								<a href="{{route('san-pham')}}">Shop</a>
+							</li>
+
+							<li>
+								<a href="{{route('gio-hang')}}">Giỏ hàng</a>
+							</li>
+
+							<li>
+								<a href="source/blog.html">Blog</a>
+							</li>
+
+							<li>
+								<a href="source/about.html">Chi tiết</a>
+							</li>
+
+							<li>
+								<a href="source/contact.html">Liên hệ</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+				<!-- Header Icon -->
+				<div class="header-icons">
 					<!-- Cart  -->
-					<a href="#" class="header-wrapicon1 dis-block m-l-30">
+					<a href="#" class="header-wrapicon1 dis-block">
 						<img src="/source/images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
 					</a>
 
 					<span class="linedivide1"></span>
 
-					<div class="header-wrapicon2 m-r-13">
+					<div class="header-wrapicon2">
 						<img  src="/source/images/icons/icon-header-02.png" class="header-icon1 js-show-header-dropdown" alt="ICON">
 						<div>
 						<span class="header-icons-noti">
@@ -99,40 +138,6 @@
 						</div>
 						
 					</div>
-				</div>
-			</div>
-
-			<div class="wrap_header">
-
-				<!-- Menu -->
-				<div class="wrap_menu">
-					<nav class="menu">
-						<ul class="main_menu">
-							<li>
-								<a href="{{route('trang-chu')}}">Trang chủ</a>
-							</li>
-
-							<li>
-								<a href="{{route('san-pham')}}">Shop</a>
-							</li>
-
-							<li>
-								<a href="{{route('gio-hang')}}">Giỏ hàng</a>
-							</li>
-
-							<li>
-								<a href="source/blog.html">Blog</a>
-							</li>
-
-							<li>
-								<a href="source/about.html">Chi tiết</a>
-							</li>
-
-							<li>
-								<a href="source/contact.html">Liên hệ</a>
-							</li>
-						</ul>
-					</nav>
 				</div>
 			</div>
 		</div>
