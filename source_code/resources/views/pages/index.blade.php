@@ -114,8 +114,8 @@
 							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
 								<!-- Block2 -->
 								<div class="block2">
-									<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelhot">
-										<img src="source/images/item-02.jpg" alt="IMG-PRODUCT">
+									<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelhot hov-img-zoom">
+										<img src="source/images/products/{{$sp->image}}" alt="IMG-PRODUCT">
 
 										<div class="block2-overlay trans-0-4">
 											<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -157,8 +157,8 @@
 							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
 								<!-- Block2 -->
 								<div class="block2">
-									<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
-										<img src="source/images/item-07.jpg" alt="IMG-PRODUCT">
+									<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew hov-img-zoom">
+										<img src="source/images/products/{{$sp->image}}" alt="IMG-PRODUCT">
 
 										<div class="block2-overlay trans-0-4">
 											<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -197,8 +197,8 @@
 							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
 								<!-- Block2 -->
 								<div class="block2">
-									<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelsale">
-										<img src="source/images/item-01.jpg" alt="IMG-PRODUCT">
+									<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelsale hov-img-zoom">
+										<img src="source/images/products/{{$sp->image}}" alt="IMG-PRODUCT">
 
 										<div class="block2-overlay trans-0-4">
 											<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">

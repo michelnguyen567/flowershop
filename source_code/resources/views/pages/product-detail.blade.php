@@ -25,21 +25,21 @@
 					<div class="wrap-slick3-dots"></div>
 
 					<div class="slick3">
-						<div class="item-slick3" data-thumb="source/images/thumb-item-01.jpg">
+						<div class="item-slick3" data-thumb="source/images/products/{{$sp->image}}">
 							<div class="wrap-pic-w">
-								<img src="source/images/product-detail-01.jpg" alt="IMG-PRODUCT">
+								<img src="source/images/products/{{$sp->image}}" alt="IMG-PRODUCT">
 							</div>
 						</div>
 
-						<div class="item-slick3" data-thumb="source/images/thumb-item-02.jpg">
+						<div class="item-slick3" data-thumb="source/images/products/{{$sp->image}}">
 							<div class="wrap-pic-w">
-								<img src="source/images/product-detail-02.jpg" alt="IMG-PRODUCT">
+								<img src="source/images/products/{{$sp->image}}" alt="IMG-PRODUCT">
 							</div>
 						</div>
 
-						<div class="item-slick3" data-thumb="source/images/thumb-item-03.jpg">
+						<div class="item-slick3" data-thumb="source/images/products/{{$sp->image}}">
 							<div class="wrap-pic-w">
-								<img src="source/images/product-detail-03.jpg" alt="IMG-PRODUCT">
+								<img src="source/images/products/{{$sp->image}}" alt="IMG-PRODUCT">
 							</div>
 						</div>
 					</div>
@@ -52,7 +52,7 @@
 				</h4>
 
 				<span class="m-text17">
-				{{$sp->unit_price}}
+				{{$sp->unit_price}} VNĐ
 				</span>
 
 				<p class="s-text8 p-t-10">
@@ -102,7 +102,7 @@
 
 					<div class="dropdown-content dis-none p-t-15 p-b-23">
 						<p class="s-text8">
-							Fusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placerat
+						{{$sp->description}}
 						</p>
 					</div>
 				</div>
@@ -155,8 +155,8 @@
 					<div class="item-slick2 p-l-15 p-r-15">
 						<!-- Block2 -->
 						<div class="block2">
-							<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
-								<img src="source/images/item-02.jpg" alt="IMG-PRODUCT">
+							<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew hov-img-zoom">
+								<img src="source/images/products/{{$sp->image}}" alt="IMG-PRODUCT">
 
 								<div class="block2-overlay trans-0-4">
 									<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -179,7 +179,7 @@
 								</a>
 
 								<span class="block2-price m-text6 p-r-5">
-									{{$sp->unit_price}}
+									{{$sp->unit_price}} VNĐ
 								</span>
 							</div>
 						</div>
