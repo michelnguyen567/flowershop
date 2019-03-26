@@ -94,7 +94,7 @@ class PageController extends Controller
         $cart->add($product,$id);
         $req->session()->put('cart',$cart);
         
-        
+        //return redirect()->back();
         return (['cart'=>$cart]);
        
     }
