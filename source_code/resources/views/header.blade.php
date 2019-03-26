@@ -91,7 +91,7 @@
 								<li class="header-cart-item">
 								
 									<div class="header-cart-item-img">
-										<img src="/source/images/item-cart-01.jpg" alt="IMG">
+										<img src="/source/images/products/{{$product['item']['image']}} " alt="IMG">
 									</div>
 									
 									<div class="header-cart-item-txt">
