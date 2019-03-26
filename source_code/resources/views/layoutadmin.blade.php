@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="/source/admin/css/style.css">
   <!-- endinject -->
   <link rel="shortcut icon" href="/source/admin/images/favicon.png" />
+  
 </head>
 
 <body>

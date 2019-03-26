@@ -3,7 +3,7 @@
     <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
         <a class="navbar-brand brand-logo" href="/source/admin/index.html">
-          <img src="/source/upload/asa.jpeg" alt="logo" />
+          <img src="/source/admin/images/logo.svg" alt="logo" />
         </a>
         <a class="navbar-brand brand-logo-mini" href="/source/admin/index.html">
           <img src="/source/admin/images/logo-mini.svg" alt="logo" />
@@ -138,7 +138,7 @@
           </li>
           <li class="nav-item dropdown d-none d-xl-inline-block">
             <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
-              <span class="profile-text">Hello, Richard V.Welsh !</span>
+              <span class="profile-text">Hello, DucHieu !</span>
               <img class="img-xs rounded-circle" src="/source/admin/images/faces/face1.jpg" alt="Profile image">
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
@@ -187,7 +187,7 @@
                   <img src="/source/admin/images/faces/face1.jpg" alt="profile image">
                 </div>
                 <div class="text-wrapper">
-                  <p class="profile-name">Richard V.Welsh</p>
+                  <p class="profile-name">DucHieu</p>
                   <div>
                     <small class="designation text-muted">Manager</small>
                     <span class="status-indicator online"></span>
