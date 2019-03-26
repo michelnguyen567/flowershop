@@ -67,6 +67,11 @@ Route::get('del-cart/{id}',[
 ]);
 //xoa san pham trong gio hang xai ajax goi route nay
 //neu san pham co so luong lon hon 1 thi chi xoa ca san pham
+Route::get('del-cart/{id}',[
+    'as'=>'xoasgiohang',
+    'uses'=>'PageController@getDelsCart'
+]);
+//chuyen trang gio hang
 Route::get('get-list-cart',[
     'as'=>'laygiohang',
     'uses'=>'PageController@getListCart'
