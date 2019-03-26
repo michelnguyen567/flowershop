@@ -31,7 +31,7 @@
                     <tr class="table-row">
                         <td class="column-1">
                             <div class="cart-img-product b-rad-4 o-f-hidden">
-                                <img src="images/item-10.jpg" alt="IMG-PRODUCT">
+                                <img src="/source/images/products/{{$sp['item']['image']}}" alt="IMG-PRODUCT">
                             </div>
                         </td>
                         <td class="column-2">{{$sp['item']['name']}}</td>
@@ -148,7 +148,7 @@
                 <span class="m-text22 w-size19 w-full-sm">
                     Tổng cộng:
                 </span>
-                <span class="m-text21 w-size20 w-full-sm">
+                <span class="m-text21 w-size20 w-full-sm" style="color:red;">
                     @if(Session::has('cart'))
                         {{$totalPrice}}
                     @else

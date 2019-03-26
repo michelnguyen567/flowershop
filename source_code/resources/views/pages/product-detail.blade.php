@@ -1,12 +1,12 @@
 @extends("layout")
 @section('body')
 <div class="bread-crumb bgwhite flex-w p-l-52 p-r-15 p-t-30 p-l-15-sm">
-		<a href="index.html" class="s-text16">
+		<a href="{{route('trang-chu')}}" class="s-text16">
 			Home
 			<i class="fa fa-angle-right m-l-8 m-r-9" aria-hidden="true"></i>
 		</a>
 
-		<a href="product.html" class="s-text16">
+		<a href="{{route('san-pham')}}" class="s-text16">
 			{{$type->name}}
 			<i class="fa fa-angle-right m-l-8 m-r-9" aria-hidden="true"></i>
 		</a>
