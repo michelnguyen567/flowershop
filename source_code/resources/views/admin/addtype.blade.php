@@ -9,24 +9,24 @@
                 <i class="mdi mdi-loupe"></i>Thêm mới</button>
             </div>
             <div class="table-responsive">
-                <table class="table table-hover">
+                <table class="table table-hover table-bordered">
                 <thead>
-                    <tr>
+                    <tr style="text-align:center;">
                     <th>
                         #
                     </th>
                     <th>
                         Tên sản phẩm
                     </th>
-                    <th>
+                    <!-- <th>
                         Loại
-                    </th>
+                    </th> -->
                     <th>
                         Chi tiết
                     </th>
-                    <th>
+                    <!-- <th>
                         Đơn giá
-                    </th>
+                    </th> -->
                     <th>
                         Ngày thêm 
                     </th>
@@ -39,24 +39,24 @@
                     <tr>
                     @foreach($type as $sp)
                         <td class="py-1">
-                            1
+                            {{$dem++}}
                         </td>
                         <td>
                             {{$sp['name']}}
                         </td>
-                        <td>
+                        <!-- <td>
                             {{$sp['id_type']}}
-                        </td>
-                        <td>
+                        </td> -->
+                        <td style="width:60%;line-height:2;white-space:initial;">
                             {{$sp['description']}}
                         </td>
-                        <td>
+                        <!-- <td>
                             {{$sp['unit_price']}}
-                        </td>
+                        </td> -->
                         <td>
                             {{$sp['created_at']}}
                         </td>
-                        <td style="padding:0;">
+                        <td style="padding:0;text-align:center;">
                             <button type="button" class="btn btn-icons btn-inverse-warning" data-toggle="modal" data-target="#modelqlview">
                             <i class="mdi mdi-eye"></i></button>
                             <button type="button" class="btn btn-icons btn-inverse-danger">

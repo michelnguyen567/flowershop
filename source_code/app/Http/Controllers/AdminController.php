@@ -37,11 +37,11 @@ class AdminController extends Controller
     }
     public function getAddProduct(){
         $product=Product::all();
-        return view('admin.addproduct',['product'=>$product]);
+        return view('admin.addproduct',['product'=>$product,'dem'=>1]);
     }
     public function getAddType(){
         $type=ProductType::all();
-        return view('admin.addtype',['type'=>$type]);
+        return view('admin.addtype',['type'=>$type,'dem'=>1]);
     }
 
     public function buttonAddProduct(Request $req){
