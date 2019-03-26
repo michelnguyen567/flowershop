@@ -251,13 +251,13 @@
 				<div class="col-sm-10 col-md-4 p-b-30 m-l-r-auto">
 					<!-- Block3 -->
 					<div class="block3">
-						<a href="blog-detail.html" class="block3-img dis-block hov-img-zoom">
-							<img src="source/images/blog-01.jpg" alt="IMG-BLOG">
+						<a href="source/blog-detail.html" class="block3-img dis-block hov-img-zoom">
+							<img src="source/images/blog/{{$new->image}}" alt="IMG-BLOG">
 						</a>
 
 						<div class="block3-txt p-t-14">
 							<h4 class="p-b-7">
-								<a href="blog-detail.html" class="m-text11">
+								<a href="source/blog-detail.html" class="m-text11">
 									{{$new->title}}
 								</a>
 							</h4>
