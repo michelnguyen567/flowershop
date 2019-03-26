@@ -104,11 +104,12 @@
 	</script>
 	<script>
 	function abc(id){
+		
 		$.ajax({
                 type: 'GET',
-                url: 'add-to-cart/'+id,
+                url: '/add-to-cart/'+id,
                 success: function(data) {
-					
+					window.location.reload();
                 }
             });
 	}
