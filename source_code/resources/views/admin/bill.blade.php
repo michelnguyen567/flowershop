@@ -4,23 +4,8 @@
     <div class="col-lg-12 grid-margin stretch-card">
     <div class="card">
       <div class="card-body">
-        <div style="float: right;">
-          <div class="btn-group dropdown">
-            <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 29px, 0px);">
-              <a class="dropdown-item" href="#">
-                <i class="fa fa-reply fa-fw"></i>Khoa CNTT</a>
-              <a class="dropdown-item" href="#">
-                <i class="fa fa-history fa-fw"></i>Khoa Dược</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">
-                <i class="fa fa-check text-success fa-fw"></i>Khoa Cơ - Điện tử</a>
-              <a class="dropdown-item" href="#">
-                <i class="fa fa-times text-danger fa-fw"></i>Close Issue</a>
-            </div>
-          </div>
-        </div>
         
-        <h4 class="card-title">Danh sách đề xuất đã duyệt</h4>
+        <h4 class="card-title">Danh sách đơn đặt hàng</h4>
         <p></p>
         <div class="table-responsive">
           <table class="table table-hover table-bordered">
@@ -76,10 +61,13 @@
                   {{$donhang['note']}}
                 </td>
                 <td style="padding-top: 0; padding-bottom: 0">
-                <a href="{{route('giao-hang',$donhang['id'])}}"><label class="badge badge-success">
+                
                 @if ($status==0)
+                <a href="{{route('giao-hang',$donhang['id'])}}"><label class="badge badge-warning">
                   Chưa giao
+
                 @else
+                <a><label class="badge badge-success">
                   Đã giao
                 @endif
                 </label></a>
