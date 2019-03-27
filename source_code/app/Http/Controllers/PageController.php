@@ -132,6 +132,7 @@ class PageController extends Controller
         $bill->total=$cart->totalPrice;
         $bill->payment=$req->payment;
         $bill->note=$req->note;
+        $bill->status=0;
         $bill->save();
 
 
