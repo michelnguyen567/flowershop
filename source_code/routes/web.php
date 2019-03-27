@@ -78,7 +78,7 @@ Route::get('get-list-cart',[
 ]);
 //dat hang xai ajax goi route nay
 //dat hang xong thi nhay qua trang dat hang thanh cong
-Route::get('dat-hang',[
+Route::post('dat-hang',[
     'as'=>'dat-hang',
     'uses'=>"PageController@getCheckOut"
 ]);
